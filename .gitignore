@@ -1,0 +1,47 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.so
+
+# ================================
+# Jupyter / Colab
+# ================================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ================================
+# Virtual Environment
+# ================================
+venv/
+.env
+.env.*
+
+# ================================
+# Dataset & Artifacts (IMPORTANT)
+# ================================
+data/
+datasets/
+images/
+labels/
+runs/
+outputs/
+checkpoints/
+weights/
+models/
+
+# ================================
+# Training Logs
+# ================================
+logs/
+wandb/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# Ultralytics YOLO
+ultralytics_settings.json
