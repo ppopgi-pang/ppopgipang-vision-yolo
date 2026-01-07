@@ -1,0 +1,14 @@
+# Core
+torch>=2.0
+torchvision>=0.15
+
+# YOLO (Ultralytics)
+ultralytics>=8.0.0
+
+# Image & Utils
+opencv-python
+numpy
+matplotlib
+pillow
+tqdm
+pyyaml
